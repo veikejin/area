@@ -1,0 +1,29 @@
+{
+    "name": "smg/area",
+    "description": "SMG Area Package",
+    "type": "library",
+    "require": {
+        "kalnoy/nestedset": "^4.3"
+    },
+    "authors": [
+        {
+            "name": "syw",
+            "email": "syw0602@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SMG\\Area\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SMG\\Area\\AreaServiceProvider"
+            ]
+        }
+    }
+}
