@@ -5,7 +5,7 @@
  * Date: 2018/6/27
  * Time: 10:29
  */
-namespace Veikejin\Area;
+namespace VEIKEJIN\Area;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Veikejin\\Area\\AreaServiceProvider"
+                "VEIKEJIN\\Area\\AreaServiceProvider"
             ]
         }
     }
