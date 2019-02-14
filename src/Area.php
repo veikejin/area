@@ -38,7 +38,7 @@ class Area extends Extension
                 /* @var \Illuminate\Routing\Router $router */
                 $router->resource(
                     config('admin.extensions.area.name', 'area'),
-                    config('admin.extensions.area.controller', 'SMG\Area\AreaController')
+                    config('admin.extensions.area.controller', 'Veikejin\Area\AreaController')
                 );
             }
         );
@@ -54,8 +54,8 @@ class Area extends Extension
                 config('api.defaultSetting', [])
             ),
             function ($api) {
-                $api->get('/areas', '\SMG\Area\ApiController@index')->name('api.package.area.home');
-                $api->get('/areas/all', '\SMG\Area\ApiController@all')->name('api.package.area.all');
+                $api->get('/areas', '\Veikejin\Area\ApiController@index')->name('api.package.area.home');
+                $api->get('/areas/all', '\Veikejin\Area\ApiController@all')->name('api.package.area.all');
             }
         );
     }
